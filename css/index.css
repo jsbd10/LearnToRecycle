@@ -1,0 +1,85 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+nav {
+  display: flex;
+  background-color: #343a40;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50px;
+}
+ nav a {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #ffffff;  
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: none;
+}
+
+.inicio{
+  background-image: url('https://www.arcgis.com/sharing/rest/content/items/0bbe3a36596d4eb392015af08242c9e7/resources/1595645209317.jpeg?w=3117');
+  width: 100%;
+  height: 92%;
+  position: absolute;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+ .titulo{
+  display: grid;
+  grid-template-columns: 100%;
+  grid-template-rows: 150px;
+  justify-items: center;
+  align-items: center;
+  font-size: 300%;
+} 
+.reciclar{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.separar{
+  margin-top: 45%;
+  margin-left: 5%;
+  width: 40%;
+}
+.definicion{
+  margin-top: 45%;
+  width: 40%;
+  margin-left: 5%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: justify;
+}
+.canecas{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  flex-wrap: wrap;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 10%;
+  margin-bottom: 10%;
+}
+.def{
+  margin-top: 10%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align: justify;
+}
+footer{
+  display: grid;
+  grid-template-rows: 2;
+  justify-content: center;
+  background-color: #343a40;
+  color: #ffffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+  height: 80px;
+  align-items: center;
+}
